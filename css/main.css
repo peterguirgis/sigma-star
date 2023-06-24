@@ -1,0 +1,352 @@
+body {
+    height: 3100px;
+}
+
+.btn {
+    margin-left: 15px;
+}
+
+.btn:hover {
+    background-color: #0d6efd;
+}
+
+.collapse {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.collapse ul button {
+    border-radius: 4px;
+    border: 1px solid grey;
+
+}
+
+.collapse ul li a:hover {
+    color: #01b8dc;
+}
+
+#row {
+    display: flex;
+}
+
+#row .firstimage {
+    margin-left: 20px;
+    position: relative;
+}
+
+#row #item {
+    position: absolute;
+    right: 80px;
+    bottom: 210px;
+    direction: rtl;
+    padding-right: 20px;
+}
+
+#row #item h1 {
+    font-size: 50px;
+    font-family: Raleway, sans-serif;
+}
+
+#row #item h5 {
+    color: grey;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+}
+
+#row #item button {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: #01b8dc;
+    color: white;
+    border: 1px solid #01b8dc;
+    transition: all 2s;
+
+}
+
+#row #item button:hover {
+    background-color: #0d6efd;
+
+}
+
+.vision {
+    background-color: rgba(128, 128, 128, 0.1);
+    height: 120px;
+}
+
+.whyus {
+    background-color: rgba(128, 128, 128, 0.1);
+    height: 120px;
+}
+
+.vision i {
+    color: #01b8dc;
+    padding-right: 10px;
+    font-size: 35px;
+    padding-top: 25px;
+}
+
+#row .vision {
+    width: 700px;
+    height: 200px;
+    margin-left: 30px;
+    direction: rtl;
+
+
+}
+
+#row .whyus {
+    width: 700px;
+    height: 200px;
+    margin-left: 30px;
+    direction: rtl;
+}
+
+.whyus i {
+    color: #01b8dc;
+    padding-right: 10px;
+    font-size: 35px;
+    padding-top: 25px;
+
+}
+
+.whyus h6 {
+    color: grey;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.whyus p {
+    color: grey;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.vision h6 {
+    color: grey;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.vision p {
+    color: grey;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.whoarewe {
+    direction: rtl;
+    margin-top: 20px;
+    padding-top: 120px;
+}
+
+.whoarewe h3 {
+    color: gray;
+}
+
+.whoarewe p {
+    font-size: small;
+}
+
+.about {
+    padding-top: 30px;
+
+}
+
+.service {
+    margin-top: 20px;
+    text-align: center;
+    color: gray;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.service h6 {
+    font-size: small;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.product i {
+    font-size: 25px;
+    color: #01b8dc;
+}
+
+.product h4 {
+    color: grey;
+    padding-top: 20px;
+}
+
+.product h4:hover {
+    color: #01b8dc;
+}
+
+.product .item {
+    width: 25%;
+    padding: 25px 25px 25px 25px;
+    transition: all 2s;
+}
+
+.product .item:hover {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.clients {
+    margin-top: 20px;
+    text-align: center;
+    color: gray;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.clients h6 {
+    font-size: small;
+}
+
+.contact {
+    margin-top: 150px;
+    text-align: center;
+    color: gray;
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.contact h6 {
+    font-size: small;
+}
+
+#row {
+    margin-top: 50px;
+}
+
+#row .form {
+    width: 50%;
+    margin-left: 200px;
+    direction: rtl;
+}
+
+#map-container-google-1 {
+    margin-left: 200px;
+    margin-right: 30px;
+}
+
+.map {
+    width: 400px;
+    height: 350px;
+}
+
+.fasl {
+    background-color: #01b8dc;
+    height: 3px;
+    margin-top: 15px;
+}
+
+.final {
+    background-color: rgba(128, 128, 128, 0.1);
+    height: 200px;
+    text-align: center;
+}
+
+.final h2 {
+    color: grey;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.final i {
+
+    font-size: 25px;
+    color: gray;
+    padding-top: 10px;
+
+}
+
+.final i:hover {
+    color: #01b8dc;
+    left: 200px;
+}
+
+/* ============================================*/
+
+@media(max-width:1140px) {
+    .firstimage img {
+        width: 300px;
+        margin-left: 250px;
+    }
+
+    .firstimage {
+        height: 400px;
+        position: relative;
+    }
+
+    #row #item {
+        position: absolute;
+        right: 180px;
+        bottom: 600px;
+        direction: rtl;
+        padding-right: 20px;
+    }
+
+    .about img {
+        width: 700px;
+        margin-right: 30px;
+    }
+
+    .whoarewe p {
+        margin-right: 20px;
+        width: 600px;
+    }
+
+    .whoarewe h3 {
+        margin-right: 20px;
+    }
+
+    #row .form .mb-3 {
+        width: 300%;
+        margin-left: 20px;
+        direction: rtl;
+    }
+
+    #map-container-google-1 {
+        padding-right: 20px;
+    }
+}
+
+@media(max-width:750px) {
+    .firstimage img {
+        width: 300px;
+        margin-left: 80px;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    #row #item {
+        position: absolute;
+        left: 10px;
+        bottom: 220px;
+        direction: rtl;
+        width: 400px;
+
+    }
+    .about img {
+        width: 400px;
+   margin-right: 100px;
+    }
+    .whoarewe p {
+        margin-right: 100px;
+        width:300px;
+        font-size: 15px;
+    }
+    .whoarewe h3 {
+        margin-right: 100px;
+        width:300px;
+        font-size: 20px;
+    }
+}
